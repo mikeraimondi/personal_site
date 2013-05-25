@@ -19,8 +19,23 @@
 
 	<div class="row">
 
-    <%= yield %>
+    <div class="large-3 columns">
+      <ul class="side-nav">
+        <li id="home_nav"><a href="/">Home</a></li>
+        <li class="divider"></li>
+        <li id="about_nav"><a href="/about">About</a></li>
+        <li id="portfolio_nav"><a href="/portfolio">Portfolio</a></li>
+        <li id="resume_nav"><a href="/resume">R&eacutesum&eacute</a></li>
+        <li id="contact_nav"><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
     
+    <div class="large-9 columns">
+
+      <%= yield %>
+
+    </div>
+
 	</div>
 
   <script>
@@ -29,6 +44,8 @@
   '.js><\/script>')
   </script>
   
+  <script src="javascripts/main.js"></script>
+
   <script src="javascripts/foundation/foundation.js"></script>
 	
 	<script src="javascripts/foundation/foundation.alerts.js"></script>
