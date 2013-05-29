@@ -9,4 +9,5 @@ gem 'sinatra'
 group :development do
   gem 'thin'
   gem 'shotgun'
+  gem 'guard-compass'
 end
