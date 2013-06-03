@@ -1,12 +1,67 @@
-h2#name {
+h2#front-page-name {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 2.6em;
   margin-bottom: 5px;
+  .first-name {
+    color: hsl(0, 0%, 74%);
+  }
+  .last-name {
+    color: hsl(0, 0%, 27%);
+    font-weight: bold;
+  }
+}
+
+a#top-nav-name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 1.3em;
+  .first-name {
+    color: hsl(0, 0%, 100%);
+  }
+  .last-name {
+    color: hsl(0, 0%, 27%);
+    font-weight: bold;
+  }
+}
+
+a#side-nav-name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 1.3em;
+  .first-name {
+    color: hsl(0, 0%, 74%);
+  }
+  .last-name {
+    color: hsl(0, 0%, 27%);
+    font-weight: bold;
+  }
 }
 
 ul.vcard {
   margin: 20px;
+}
+
+ul.social li{
+  &:first-child a {
+    color: hsl(20, 85%, 58%);
+  }
+  &:nth-child(2) a {
+    color: hsl(153, 36%, 46%);
+  }
+  &:nth-child(3) a {
+    color: hsl(349, 67%, 57%);
+  }
+  &:nth-child(4) a {
+    color: hsl(202, 62%, 41%);
+  }
+  &:nth-child(5) a {
+    color: hsl(20, 85%, 58%);
+  }
+}
+
+ul.side-nav li a:hover{
+  color: hsl(0, 0%, 65%);
 }
 
 // Global Foundation Settings

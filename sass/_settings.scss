@@ -25,8 +25,8 @@ $em-base: 16px !default;
 
 // $default-float: left;
 
-// $body-bg: #2C3136;
-// $body-font-color: #B3C6DC;
+$body-bg: hsl(0, 0%, 13%);
+$body-font-color: hsl(0, 0%, 47%);
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -41,8 +41,8 @@ $em-base: 16px !default;
 
 // Colors
 
-// $primary-color: #7f8d9c;
-// $secondary-color: #4B535D;
+$primary-color: hsl(0, 0%, 100%);
+$secondary-color: hsl(0, 0%, 22%);
 // $alert-color: #c60f13;
 // $success-color: #5da423;
 
@@ -126,7 +126,7 @@ $em-base: 16px !default;
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: hsl(0, 0%, 65%);
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -1157,7 +1157,7 @@ $em-base: 16px !default;
 
 // Background color for the top bar
 
-// $topbar-bg: #111;
+$topbar-bg: hsl(0, 0%, 6%);
 
 // Height and margin
 

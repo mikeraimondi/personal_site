@@ -5,10 +5,12 @@
 
 <head>
 	<meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mike Raimondi</title>
 
   
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+
   <link rel="stylesheet" href="stylesheets/app.css" />
   
 
@@ -19,22 +21,45 @@
 
 	<div class="row">
 
-    <div class="large-3 columns">
+    <div class="hide-for-small large-3 columns">
       <ul class="side-nav">
         <% if @home %>
-          <li class="<%= 'active' if @current == 'home' %>"><a href="/">Home</a></li>
+          <li class="<%= 'active' if @current == 'home' %>"><a href="/">home</a></li>
         <% else %>
-          <li class="<%= 'active' if @current == 'home' %>"><a href="/">Mike Raimondi</a></li>
+          <li class="<%= 'active' if @current == 'home' %>"><a id="side-nav-name" href="/"><span class="first-name">mike</span> <span class="last-name">raimondi</span></a></li>
         <% end %>
         <li class="divider"></li>
-        <li class="<%= 'active' if @current == 'about' %>"><a href="/about">About</a></li>
-        <li class="<%= 'active' if @current == 'portfolio' %>"><a href="/portfolio">Portfolio</a></li>
-        <li class="<%= 'active' if @current == 'resume' %>"><a href="/resume">R&eacutesum&eacute</a></li>
-        <li class="<%= 'active' if @current == 'contact' %>"><a href="/contact">Contact</a></li>
+        <li class="<%= 'active' if @current == 'about' %>"><a href="/about">about</a></li>
+        <li class="<%= 'active' if @current == 'portfolio' %>"><a href="/portfolio">portfolio</a></li>
+        <li class="<%= 'active' if @current == 'resume' %>"><a href="/resume">r&eacutesum&eacute</a></li>
+        <li class="<%= 'active' if @current == 'contact' %>"><a href="/contact">contact</a></li>
       </ul>
     </div>
+    <div class="row show-for-small">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1><a href="/" id="top-nav-name"><span class="first-name">mike</span> <span class="last-name">raimondi</span></a></h1>
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Left Nav Section -->
+          <ul class="left">
+            <li class="<%= 'active' if @current == 'home' %>"><a href="/">home</a></li>
+            <li class="<%= 'active' if @current == 'about' %>"><a href="/about">about</a></li>
+            <li class="<%= 'active' if @current == 'portfolio' %>"><a href="/portfolio">portfolio</a></li>
+            <li class="<%= 'active' if @current == 'resume' %>"><a href="/resume">r&eacutesum&eacute</a></li>
+            <li class="<%= 'active' if @current == 'contact' %>"><a href="/contact">contact</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
     
-    <div class="large-9 columns">
+    <div class="large-9 small-12 columns">
 
       <%= yield %>
 
