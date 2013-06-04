@@ -4,10 +4,10 @@ h2#front-page-name {
   font-size: 2.6em;
   margin-bottom: 5px;
   .first-name {
-    color: hsl(0, 0%, 74%);
+    color: hsl(0, 0%, 27%);
   }
   .last-name {
-    color: hsl(0, 0%, 27%);
+    color: hsl(0, 0%, 74%);
     font-weight: bold;
   }
 }
@@ -17,10 +17,10 @@ a#top-nav-name {
   font-weight: normal;
   font-size: 1.3em;
   .first-name {
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 27%);
   }
   .last-name {
-    color: hsl(0, 0%, 27%);
+    color: hsl(0, 0%, 100%);
     font-weight: bold;
   }
 }
@@ -38,30 +38,40 @@ a#side-nav-name {
   }
 }
 
+ul.side-nav li a:hover{
+  color: hsl(0, 0%, 65%);
+}
+
 ul.vcard {
   margin: 20px;
 }
 
-ul.social li{
-  &:first-child a {
-    color: hsl(20, 85%, 58%);
+ul.social li {
+  text-align: center;
+  a {
+    color: hsl(0, 0%, 100%);
+    padding: 8px 26px;
+    border-radius: 2px;
   }
-  &:nth-child(2) a {
-    color: hsl(153, 36%, 46%);
+  a.github-main-page {
+    background-color: hsl(202, 62%, 41%);
   }
-  &:nth-child(3) a {
-    color: hsl(349, 67%, 57%);
+  a.blog-main-page {
+    background-color: hsl(153, 36%, 46%);
   }
-  &:nth-child(4) a {
-    color: hsl(202, 62%, 41%);
+  a.twitter-main-page {
+    background-color: hsl(349, 67%, 57%);
   }
-  &:nth-child(5) a {
-    color: hsl(20, 85%, 58%);
+  a.linkedin-main-page {
+    background-color: hsl(20, 85%, 58%);
+  }
+  a.facebook-main-page {
+    background-color: hsl(259, 95%, 59%);
   }
 }
 
-ul.side-nav li a:hover{
-  color: hsl(0, 0%, 65%);
+div.social-button-spacer {
+  height: 10px;
 }
 
 // Global Foundation Settings

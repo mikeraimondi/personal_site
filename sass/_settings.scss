@@ -26,7 +26,7 @@ $em-base: 16px !default;
 // $default-float: left;
 
 $body-bg: hsl(0, 0%, 13%);
-$body-font-color: hsl(0, 0%, 47%);
+$body-font-color: hsl(0, 0%, 100%);
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -41,7 +41,7 @@ $body-font-color: hsl(0, 0%, 47%);
 
 // Colors
 
-$primary-color: hsl(0, 0%, 100%);
+$primary-color: hsl(0, 0%, 47%);
 $secondary-color: hsl(0, 0%, 22%);
 // $alert-color: #c60f13;
 // $success-color: #5da423;
@@ -126,7 +126,7 @@ $secondary-color: hsl(0, 0%, 22%);
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
-$header-font-color: hsl(0, 0%, 65%);
+$header-font-color: hsl(0, 0%, 75%);
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -144,7 +144,7 @@ $header-font-color: hsl(0, 0%, 65%);
 // Subheaders
 
 // $subheader-line-height: 1.4;
-// $subheader-font-color: lighten($header-font-color, 30%);
+$subheader-font-color: darken($header-font-color, 30%);
 // $subheader-font-weight: 300;
 // $subheader-top-margin: .2em;
 // $subheader-bottom-margin: .5em;
@@ -1028,7 +1028,7 @@ $header-font-color: hsl(0, 0%, 65%);
 
 // $sub-nav-active-font-weight: bold;
 // $sub-nav-active-bg: $primary-color;
-// $sub-nav-active-color: #fff;
+// $sub-nav-active-color: hsl(0, 0%, 100%)
 // $sub-nav-active-padding: emCalc(3px) emCalc(9px);
 // $sub-nav-active-cursor: default;
 

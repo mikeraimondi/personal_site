@@ -10,4 +10,5 @@ group :development do
   gem 'thin'
   gem 'shotgun'
   gem 'guard-compass'
+  gem 'guard-livereload'
 end

@@ -8,6 +8,9 @@ GEM
       fssm (>= 0.2.7)
       sass (~> 3.1)
     daemons (1.1.9)
+    em-websocket (0.5.0)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.5.3)
     eventmachine (1.0.3)
     ffi (1.8.1)
     formatador (0.2.4)
@@ -21,12 +24,18 @@ GEM
     guard-compass (0.0.6)
       compass (>= 0.10.5)
       guard (>= 0.2.1)
+    guard-livereload (1.4.0)
+      em-websocket (>= 0.5.0)
+      guard (>= 1.8.0)
+      multi_json (~> 1.7)
+    http_parser.rb (0.5.3)
     listen (1.1.4)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     lumberjack (1.0.3)
     method_source (0.8.1)
+    multi_json (1.7.5)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -62,6 +71,7 @@ PLATFORMS
 DEPENDENCIES
   compass
   guard-compass
+  guard-livereload
   sass
   shotgun
   sinatra
