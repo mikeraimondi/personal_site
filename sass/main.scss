@@ -17,34 +17,49 @@ h3.subheader {
   font-weight: 400;
 }
 
-a#top-nav-name {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
-  .first-name {
-    font-weight: 300;
-    color: hsl(0, 0%, 27%);
+ul.side-nav li {
+  a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em; 
+    &:hover {
+      color: hsl(0, 0%, 65%);
+    }
   }
-  .last-name {
-    font-weight: 600;
-    color: hsl(0, 0%, 100%);
+
+  a#side-nav-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.65em;
+    .first-name {
+      font-weight: 300;
+      color: hsl(0, 0%, 27%);
+    }
+    .last-name {
+      font-weight: 600;
+      color: hsl(0, 0%, 74%);
+    }
   }
 }
 
-a#side-nav-name {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
-  .first-name {
-    font-weight: 300;
-    color: hsl(0, 0%, 74%);
+nav.top-bar {
+  margin-bottom: 10px;
+  a#top-nav-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.45em;
+    .first-name {
+      font-weight: 300;
+      color: hsl(0, 0%, 27%);
+    }
+    .last-name {
+      font-weight: 600;
+      color: hsl(0, 0%, 100%);
+    }
   }
-  .last-name {
-    font-weight: 600;
-    color: hsl(0, 0%, 27%);
-  }
-}
 
-ul.side-nav li a:hover{
-  color: hsl(0, 0%, 65%);
+  ul.left li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+  }
 }
 
 ul.vcard {
@@ -64,7 +79,8 @@ ul.social li {
     padding: 8px 15px;
     border-radius: 2px;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    white-space: nowrap;
   }
   a.github-main-page {
     background-color: $blue;

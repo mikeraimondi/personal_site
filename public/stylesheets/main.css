@@ -21,103 +21,118 @@ h3.subheader {
   font-weight: 400;
 }
 
-/* line 20, ../../sass/main.scss */
-a#top-nav-name {
+/* line 21, ../../sass/main.scss */
+ul.side-nav li a {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
 }
-/* line 23, ../../sass/main.scss */
-a#top-nav-name .first-name {
-  font-weight: 300;
-  color: #454545;
-}
-/* line 27, ../../sass/main.scss */
-a#top-nav-name .last-name {
-  font-weight: 600;
-  color: white;
-}
-
-/* line 33, ../../sass/main.scss */
-a#side-nav-name {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
-}
-/* line 36, ../../sass/main.scss */
-a#side-nav-name .first-name {
-  font-weight: 300;
-  color: #bdbdbd;
-}
-/* line 40, ../../sass/main.scss */
-a#side-nav-name .last-name {
-  font-weight: 600;
-  color: #454545;
-}
-
-/* line 46, ../../sass/main.scss */
+/* line 24, ../../sass/main.scss */
 ul.side-nav li a:hover {
   color: #a6a6a6;
 }
+/* line 29, ../../sass/main.scss */
+ul.side-nav li a#side-nav-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.65em;
+}
+/* line 32, ../../sass/main.scss */
+ul.side-nav li a#side-nav-name .first-name {
+  font-weight: 300;
+  color: #454545;
+}
+/* line 36, ../../sass/main.scss */
+ul.side-nav li a#side-nav-name .last-name {
+  font-weight: 600;
+  color: #bdbdbd;
+}
 
-/* line 50, ../../sass/main.scss */
+/* line 43, ../../sass/main.scss */
+nav.top-bar {
+  margin-bottom: 10px;
+}
+/* line 45, ../../sass/main.scss */
+nav.top-bar a#top-nav-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.45em;
+}
+/* line 48, ../../sass/main.scss */
+nav.top-bar a#top-nav-name .first-name {
+  font-weight: 300;
+  color: #454545;
+}
+/* line 52, ../../sass/main.scss */
+nav.top-bar a#top-nav-name .last-name {
+  font-weight: 600;
+  color: white;
+}
+/* line 58, ../../sass/main.scss */
+nav.top-bar ul.left li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+/* line 65, ../../sass/main.scss */
 ul.vcard {
   margin: 20px;
 }
 
-/* line 54, ../../sass/main.scss */
+/* line 69, ../../sass/main.scss */
 ul.social li {
   text-align: center;
 }
-/* line 61, ../../sass/main.scss */
+/* line 76, ../../sass/main.scss */
 ul.social li a {
   display: inline-block;
   color: white;
   padding: 8px 15px;
   border-radius: 2px;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+  white-space: nowrap;
 }
-/* line 69, ../../sass/main.scss */
+/* line 85, ../../sass/main.scss */
 ul.social li a.github-main-page {
   background-color: #287aa9;
 }
-/* line 71, ../../sass/main.scss */
+/* line 87, ../../sass/main.scss */
 ul.social li a.github-main-page:hover {
   background-color: #1e5c80;
 }
-/* line 75, ../../sass/main.scss */
+/* line 91, ../../sass/main.scss */
 ul.social li a.blog-main-page {
   background-color: #4ba07a;
 }
-/* line 77, ../../sass/main.scss */
+/* line 93, ../../sass/main.scss */
 ul.social li a.blog-main-page:hover {
   background-color: #3b7d5f;
 }
-/* line 81, ../../sass/main.scss */
+/* line 97, ../../sass/main.scss */
 ul.social li a.twitter-main-page {
   background-color: #db4863;
 }
-/* line 83, ../../sass/main.scss */
+/* line 99, ../../sass/main.scss */
 ul.social li a.twitter-main-page:hover {
   background-color: #c82845;
 }
-/* line 87, ../../sass/main.scss */
+/* line 103, ../../sass/main.scss */
 ul.social li a.linkedin-main-page {
   background-color: #ef7639;
 }
-/* line 89, ../../sass/main.scss */
+/* line 105, ../../sass/main.scss */
 ul.social li a.linkedin-main-page:hover {
   background-color: #e25812;
 }
-/* line 93, ../../sass/main.scss */
+/* line 109, ../../sass/main.scss */
 ul.social li a.facebook-main-page {
   background-color: #7233fa;
 }
-/* line 95, ../../sass/main.scss */
+/* line 111, ../../sass/main.scss */
 ul.social li a.facebook-main-page:hover {
   background-color: #5106f4;
 }
 
-/* line 101, ../../sass/main.scss */
+/* line 117, ../../sass/main.scss */
 div.social-button-spacer {
   height: 10px;
 }
