@@ -73,11 +73,8 @@ ul.social li {
   $red: hsl(349, 67%, 57%);
   $orange: hsl(20, 85%, 58%);
   $purple: hsl(259, 95%, 59%);
-  text-align: center;
   a {
-    display: inline-block;
-    color: hsl(0, 0%, 100%);
-    padding: 8px 15px;
+    box-shadow: none;
     border-radius: 2px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
@@ -113,10 +110,6 @@ ul.social li {
       background-color: darken($purple, 10%);
     }
   }
-}
-
-div.social-button-spacer {
-  height: 10px;
 }
 
 div.orbit-slide-number {

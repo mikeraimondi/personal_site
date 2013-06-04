@@ -78,67 +78,56 @@ ul.vcard {
   margin: 20px;
 }
 
-/* line 70, ../../sass/main.scss */
-ul.social li {
-  text-align: center;
-}
-/* line 77, ../../sass/main.scss */
+/* line 76, ../../sass/main.scss */
 ul.social li a {
-  display: inline-block;
-  color: white;
-  padding: 8px 15px;
+  box-shadow: none;
   border-radius: 2px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   white-space: nowrap;
 }
-/* line 86, ../../sass/main.scss */
+/* line 83, ../../sass/main.scss */
 ul.social li a.github-main-page {
   background-color: #287aa9;
 }
-/* line 88, ../../sass/main.scss */
+/* line 85, ../../sass/main.scss */
 ul.social li a.github-main-page:hover {
   background-color: #1e5c80;
 }
-/* line 92, ../../sass/main.scss */
+/* line 89, ../../sass/main.scss */
 ul.social li a.blog-main-page {
   background-color: #4ba07a;
 }
-/* line 94, ../../sass/main.scss */
+/* line 91, ../../sass/main.scss */
 ul.social li a.blog-main-page:hover {
   background-color: #3b7d5f;
 }
-/* line 98, ../../sass/main.scss */
+/* line 95, ../../sass/main.scss */
 ul.social li a.twitter-main-page {
   background-color: #db4863;
 }
-/* line 100, ../../sass/main.scss */
+/* line 97, ../../sass/main.scss */
 ul.social li a.twitter-main-page:hover {
   background-color: #c82845;
 }
-/* line 104, ../../sass/main.scss */
+/* line 101, ../../sass/main.scss */
 ul.social li a.linkedin-main-page {
   background-color: #ef7639;
 }
-/* line 106, ../../sass/main.scss */
+/* line 103, ../../sass/main.scss */
 ul.social li a.linkedin-main-page:hover {
   background-color: #e25812;
 }
-/* line 110, ../../sass/main.scss */
+/* line 107, ../../sass/main.scss */
 ul.social li a.facebook-main-page {
   background-color: #7233fa;
 }
-/* line 112, ../../sass/main.scss */
+/* line 109, ../../sass/main.scss */
 ul.social li a.facebook-main-page:hover {
   background-color: #5106f4;
 }
 
-/* line 118, ../../sass/main.scss */
-div.social-button-spacer {
-  height: 10px;
-}
-
-/* line 122, ../../sass/main.scss */
+/* line 115, ../../sass/main.scss */
 div.orbit-slide-number {
   display: none;
 }
