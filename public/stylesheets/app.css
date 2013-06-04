@@ -4499,13 +4499,13 @@ form.custom .custom.disabled {
   background: #999999;
   float: left;
   margin-right: 6px;
-  border: solid 2px #222222;
+  border: solid 2px #454545;
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 /* line 182, ../../../../../.rvm/gems/ruby-1.9.3-p429@personal_site/gems/zurb-foundation-4.1.6/scss/foundation/components/_orbit.scss */
 .orbit-bullets li.active {
-  background: #222222;
+  background: #454545;
 }
 /* line 186, ../../../../../.rvm/gems/ruby-1.9.3-p429@personal_site/gems/zurb-foundation-4.1.6/scss/foundation/components/_orbit.scss */
 .orbit-bullets li:last-child {
