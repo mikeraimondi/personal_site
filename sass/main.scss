@@ -1,0 +1,103 @@
+h2#front-page-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.6em;
+  margin-bottom: 5px;
+  .first-name {
+    font-weight: 300;
+    color: hsl(0, 0%, 27%);
+  }
+  .last-name {
+    color: hsl(0, 0%, 74%);
+    font-weight: 600;
+  }
+}
+
+h3.subheader {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+a#top-nav-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  .first-name {
+    font-weight: 300;
+    color: hsl(0, 0%, 27%);
+  }
+  .last-name {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+a#side-nav-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  .first-name {
+    font-weight: 300;
+    color: hsl(0, 0%, 74%);
+  }
+  .last-name {
+    font-weight: 600;
+    color: hsl(0, 0%, 27%);
+  }
+}
+
+ul.side-nav li a:hover{
+  color: hsl(0, 0%, 65%);
+}
+
+ul.vcard {
+  margin: 20px;
+}
+
+ul.social li {
+  $blue: hsl(202, 62%, 41%);
+  $green: hsl(153, 36%, 46%);
+  $red: hsl(349, 67%, 57%);
+  $orange: hsl(20, 85%, 58%);
+  $purple: hsl(259, 95%, 59%);
+  text-align: center;
+  a {
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    padding: 8px 15px;
+    border-radius: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+  }
+  a.github-main-page {
+    background-color: $blue;
+    &:hover {
+      background-color: darken($blue, 10%);
+    }
+  }
+  a.blog-main-page {
+    background-color: $green;
+    &:hover {
+      background-color: darken($green, 10%);
+    }
+  }
+  a.twitter-main-page {
+    background-color: $red;
+    &:hover {
+      background-color: darken($red, 10%);
+    }
+  }
+  a.linkedin-main-page {
+    background-color: $orange;
+    &:hover {
+      background-color: darken($orange, 10%);
+    }
+  }
+  a.facebook-main-page {
+    background-color: $purple;
+    &:hover {
+      background-color: darken($purple, 10%);
+    }
+  }
+}
+
+div.social-button-spacer {
+  height: 10px;
+}
