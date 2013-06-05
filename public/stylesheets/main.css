@@ -64,7 +64,7 @@ nav.top-bar a#top-nav-name .first-name {
 /* line 53, ../../sass/main.scss */
 nav.top-bar a#top-nav-name .last-name {
   font-weight: 600;
-  color: white;
+  color: #c4c4c4;
 }
 /* line 59, ../../sass/main.scss */
 nav.top-bar ul.left li a {
@@ -133,7 +133,7 @@ ul.social li a.facebook-main-page:hover {
 }
 
 /* line 119, ../../sass/main.scss */
-h3.slider-header {
+h4.slider-header {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
