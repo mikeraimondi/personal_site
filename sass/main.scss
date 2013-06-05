@@ -67,49 +67,58 @@ ul.vcard {
   margin: 20px;
 }
 
-ul.social li {
-  $blue: hsl(202, 62%, 41%);
-  $green: hsl(153, 36%, 46%);
-  $red: hsl(349, 67%, 57%);
-  $orange: hsl(20, 85%, 58%);
-  $purple: hsl(259, 95%, 59%);
-  a {
-    box-shadow: none;
-    border-radius: 2px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    white-space: nowrap;
-  }
-  a.github-main-page {
-    background-color: $blue;
-    &:hover {
-      background-color: darken($blue, 10%);
+ul.social {
+  margin: 20px 0;
+  li {
+    $blue: hsl(202, 62%, 41%);
+    $green: hsl(153, 36%, 46%);
+    $red: hsl(349, 67%, 57%);
+    $orange: hsl(20, 85%, 58%);
+    $purple: hsl(259, 95%, 59%);
+    a {
+      box-shadow: none;
+      border: 3px solid hsl(0, 0%, 13%);
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+      white-space: nowrap;
+      margin-bottom: 0;
+    }
+    a.github-main-page {
+      background-color: $blue;
+      &:hover {
+        background-color: darken($blue, 7%);
+      }
+    }
+    a.blog-main-page {
+      background-color: $green;
+      &:hover {
+        background-color: darken($green, 7%);
+      }
+    }
+    a.twitter-main-page {
+      background-color: $red;
+      &:hover {
+        background-color: darken($red, 7%);
+      }
+    }
+    a.linkedin-main-page {
+      background-color: $orange;
+      &:hover {
+        background-color: darken($orange, 7%);
+      }
+    }
+    a.facebook-main-page {
+      background-color: $purple;
+      &:hover {
+        background-color: darken($purple, 7%);
+      }
     }
   }
-  a.blog-main-page {
-    background-color: $green;
-    &:hover {
-      background-color: darken($green, 10%);
-    }
-  }
-  a.twitter-main-page {
-    background-color: $red;
-    &:hover {
-      background-color: darken($red, 10%);
-    }
-  }
-  a.linkedin-main-page {
-    background-color: $orange;
-    &:hover {
-      background-color: darken($orange, 10%);
-    }
-  }
-  a.facebook-main-page {
-    background-color: $purple;
-    &:hover {
-      background-color: darken($purple, 10%);
-    }
-  }
+}
+
+h3.slider-header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 div.orbit-slide-number {
