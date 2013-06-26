@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mike_raimondi';
-  src: url('../font/mike_raimondi.eot?91637296');
-  src: url('../font/mike_raimondi.eot?91637296#iefix') format('embedded-opentype'),
-       url('../font/mike_raimondi.woff?91637296') format('woff'),
-       url('../font/mike_raimondi.ttf?91637296') format('truetype'),
-       url('../font/mike_raimondi.svg?91637296#mike_raimondi') format('svg');
+  src: url('../font/mike_raimondi.eot?96287188');
+  src: url('../font/mike_raimondi.eot?96287188#iefix') format('embedded-opentype'),
+       url('../font/mike_raimondi.woff?96287188') format('woff'),
+       url('../font/mike_raimondi.ttf?96287188') format('truetype'),
+       url('../font/mike_raimondi.svg?96287188#mike_raimondi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'mike_raimondi';
-    src: url('../font/mike_raimondi.svg?91637296#mike_raimondi') format('svg');
+    src: url('../font/mike_raimondi.svg?96287188#mike_raimondi') format('svg');
   }
 }
 */
@@ -44,14 +44,19 @@
   margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
-  font-size: 130%; 
+   font-size: 120%; 
  
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
 .icon-github-circled-1:before { content: '\e805'; } /* '' */
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e809'; } /* '' */
 .icon-pencil:before { content: '\e801'; } /* '' */
+.icon-article:before { content: '\e808'; } /* '' */
 .icon-twitter:before { content: '\e802'; } /* '' */
 .icon-facebook:before { content: '\e804'; } /* '' */
 .icon-linkedin:before { content: '\e803'; } /* '' */
+.icon-user:before { content: '\e806'; } /* '' */
+.icon-folder-open:before { content: '\e807'; } /* '' */

@@ -141,27 +141,27 @@ ul.social li a.linkedin-main-page:hover {
   background-color: #ec5f18;
 }
 
-/* line 132, ../../sass/main.scss */
+/* line 126, ../../sass/main.scss */
 h4.slider-header {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
-/* line 137, ../../sass/main.scss */
+/* line 131, ../../sass/main.scss */
 div.orbit-slide-number {
   display: none;
 }
 
-/* line 154, ../../sass/main.scss */
+/* line 135, ../../sass/main.scss */
 ul.top-nav-menu {
   margin: 10px 0;
 }
-/* line 156, ../../sass/main.scss */
+/* line 137, ../../sass/main.scss */
 ul.top-nav-menu li {
   vertical-align: middle;
   font-size: 1.1em;
 }
-/* line 159, ../../sass/main.scss */
+/* line 140, ../../sass/main.scss */
 ul.top-nav-menu li a {
   background-color: #212121;
   padding: 25px 0;
@@ -170,4 +170,30 @@ ul.top-nav-menu li a {
   box-shadow: none;
   border: 3px solid #333333;
   white-space: nowrap;
+}
+
+/* line 152, ../../sass/main.scss */
+div.footer {
+  background-color: #333333;
+}
+/* line 154, ../../sass/main.scss */
+div.footer hr {
+  margin: 0;
+}
+/* line 157, ../../sass/main.scss */
+div.footer h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+/* line 161, ../../sass/main.scss */
+div.footer h4.footer-email {
+  text-align: right;
+}
+
+/* line 168, ../../sass/main.scss */
+div.portfolio-item {
+  width: 200px;
+  height: 100px;
+  border: 1px solid white;
 }

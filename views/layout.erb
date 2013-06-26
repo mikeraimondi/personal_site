@@ -10,11 +10,11 @@
 
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
   
+  <link rel="stylesheet" href="stylesheets/style.css" />
   <link rel="stylesheet" href="stylesheets/normalize.css" />
   <link rel="stylesheet" href="stylesheets/app.css" />
   <link rel="stylesheet" href="stylesheets/main.css" />
   <link rel="stylesheet" href="stylesheets/mike_raimondi.css" />
-  
 
   <script src="javascripts/vendor/custom.modernizr.js"></script>
 
@@ -48,11 +48,12 @@
         <section class="top-bar-section">
           <!-- Left Nav Section -->
           <ul class="left button-group even-2 top-nav-menu">
-              <li class="<%= 'active' if @current == 'home' %>"><a href="/">home</a></li>
-              <li class="<%= 'active' if @current == 'about' %>"><a href="/about">about</a></li>
-              <li class="<%= 'active' if @current == 'portfolio' %>"><a href="/portfolio">portfolio</a></li>
-              <li class="<%= 'active' if @current == 'resume' %>"><a href="/resume">r&eacutesum&eacute</a></li>
-              <li class="<%= 'active' if @current == 'contact' %>"><a href="/contact">contact</a></li>
+              <li class="<%= 'active' if @current == 'home' %>"><a class="icon-home" href="/">home</a></li>
+              <li><a class="icon-pencil" href="http://www.unlimited-code-works.com" target="_blank">blog</a></li>
+              <li class="<%= 'active' if @current == 'about' %>"><a class="icon-user" href="/about">about</a></li>
+              <li class="<%= 'active' if @current == 'portfolio' %>"><a class="icon-folder-open" href="/portfolio">portfolio</a></li>
+              <li class="<%= 'active' if @current == 'resume' %>"><a class="icon-article" href="/resume">r&eacutesum&eacute</a></li>
+              <li class="<%= 'active' if @current == 'contact' %>"><a class="icon-mail" href="/contact">contact</a></li>
           </ul>
         </section>
       </nav>
@@ -67,14 +68,11 @@
 
   <div class="row footer">
     <hr />
-    <div class="large-4 small-12 columns">
-      <h4>zeno@pobox.com</h4>
+    <div class="small-6 columns">
+      <h4 class="footer-name">mike raimondi</h4>
     </div>
-    <div class="large-4 small-12 columns">
-      <h4>Mike Raimondi</h4>
-    </div>
-    <div class="large-4 small-12 columns">
-      <h4>678-761-2326</h4>
+    <div class="small-6 columns">
+      <h4 class="footer-email">zenoATpoboxDOTcom</h4>
     </div>
   </div>
 
@@ -84,6 +82,16 @@
   '.js><\/script>')
   </script>
   
+  <script src="javascripts/jquery-1.7.1.min.js"></script>
+
+  <script src="javascripts/fake-element.js"></script>
+
+  <script src="javascripts/jquery.ba-bbq.min.js"></script>
+
+  <script src="javascripts/jquery.infinitescroll.min.js"></script>
+
+  <script src="javascripts/jquery.isotope.min.js"></script>
+
   <script src="javascripts/main.js"></script>
 
   <script src="javascripts/foundation/foundation.js"></script>
@@ -114,7 +122,6 @@
 	
 	<script src="javascripts/foundation/foundation.topbar.js"></script>
 	
-  
   <script>
     $(document).foundation();
   </script>
