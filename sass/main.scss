@@ -1,7 +1,7 @@
 h2#front-page-name {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.6em;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   .first-name {
     font-weight: 300;
     color: hsl(0, 0%, 27%);
@@ -12,11 +12,24 @@ h2#front-page-name {
   }
 }
 
-h3.subheader {
+h3.tagline {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  font-size: 1.55em;
+  margin-top: 0;
 }
 
+div.tagline-small-container {
+  position: relative;
+  bottom: 10px;
+  h3.tagline-small {
+    margin: 0;
+  }
+}
+
+ul.side-nav-home {
+  margin-top: 42px;
+}
 ul.side-nav li {
   a {
     font-family: 'Open Sans', sans-serif;
@@ -68,7 +81,7 @@ ul.vcard {
 }
 
 ul.social {
-  margin: 20px 0;
+  margin: 10px 0;
   li {
     $blue: hsl(202, 62%, 41%);
     $green: hsl(153, 36%, 46%);
@@ -83,13 +96,13 @@ ul.social {
       white-space: nowrap;
       margin-bottom: 0;
     }
-    a.github-main-page {
+    a.facebook-main-page {
       background-color: $blue;
       &:hover {
         background-color: darken($blue, 7%);
       }
     }
-    a.blog-main-page {
+    a.github-main-page {
       background-color: $green;
       &:hover {
         background-color: darken($green, 7%);
@@ -107,12 +120,12 @@ ul.social {
         background-color: darken($orange, 7%);
       }
     }
-    a.facebook-main-page {
-      background-color: $purple;
-      &:hover {
-        background-color: darken($purple, 7%);
-      }
-    }
+    // a.facebook-main-page {
+    //   background-color: $purple;
+    //   &:hover {
+    //     background-color: darken($purple, 7%);
+    //   }
+    // }
   }
 }
 
@@ -123,4 +136,34 @@ h4.slider-header {
 
 div.orbit-slide-number {
   display: none;
+}
+
+// ul.left {
+//   li {
+
+//     a.dropdown-tile {
+//       // display: table-cell;
+//       // vertical-align: middle;
+//       margin: 3px;
+//       text-align: center;
+//       float: left;
+//       width: 40%;
+//     }
+//   }
+// }
+ul.top-nav-menu {
+  margin: 10px 0;
+  li {
+    vertical-align: middle;
+    font-size: 1.1em;
+    a {
+      background-color: hsl(0, 0%, 13%);
+      padding: 25px 0;
+      margin: 0 1px;
+      text-align: center;
+      box-shadow: none;
+      border: 3px solid hsl(0, 0%, 20%);
+      white-space: nowrap;
+    }
+  }
 }

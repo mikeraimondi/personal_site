@@ -2,7 +2,7 @@
 h2#front-page-name {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.6em;
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 /* line 5, ../../sass/main.scss */
 h2#front-page-name .first-name {
@@ -16,73 +16,90 @@ h2#front-page-name .last-name {
 }
 
 /* line 15, ../../sass/main.scss */
-h3.subheader {
+h3.tagline {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  font-size: 1.55em;
+  margin-top: 0;
 }
 
-/* line 21, ../../sass/main.scss */
+/* line 22, ../../sass/main.scss */
+div.tagline-small-container {
+  position: relative;
+  bottom: 10px;
+}
+/* line 25, ../../sass/main.scss */
+div.tagline-small-container h3.tagline-small {
+  margin: 0;
+}
+
+/* line 30, ../../sass/main.scss */
+ul.side-nav-home {
+  margin-top: 42px;
+}
+
+/* line 34, ../../sass/main.scss */
 ul.side-nav li a {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
 }
-/* line 24, ../../sass/main.scss */
+/* line 37, ../../sass/main.scss */
 ul.side-nav li a:hover {
   color: #a6a6a6;
 }
-/* line 29, ../../sass/main.scss */
+/* line 42, ../../sass/main.scss */
 ul.side-nav li a#side-nav-name {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.65em;
 }
-/* line 32, ../../sass/main.scss */
+/* line 45, ../../sass/main.scss */
 ul.side-nav li a#side-nav-name .first-name {
   font-weight: 300;
   color: #454545;
 }
-/* line 36, ../../sass/main.scss */
+/* line 49, ../../sass/main.scss */
 ul.side-nav li a#side-nav-name .last-name {
   font-weight: 600;
   color: #bdbdbd;
 }
 
-/* line 43, ../../sass/main.scss */
+/* line 56, ../../sass/main.scss */
 nav.top-bar {
   margin-bottom: 10px;
 }
-/* line 45, ../../sass/main.scss */
+/* line 58, ../../sass/main.scss */
 nav.top-bar a#top-nav-name {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.45em;
   white-space: nowrap;
 }
-/* line 49, ../../sass/main.scss */
+/* line 62, ../../sass/main.scss */
 nav.top-bar a#top-nav-name .first-name {
   font-weight: 300;
   color: #454545;
 }
-/* line 53, ../../sass/main.scss */
+/* line 66, ../../sass/main.scss */
 nav.top-bar a#top-nav-name .last-name {
   font-weight: 600;
   color: #c4c4c4;
 }
-/* line 59, ../../sass/main.scss */
+/* line 72, ../../sass/main.scss */
 nav.top-bar ul.left li a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 0.9em;
 }
 
-/* line 66, ../../sass/main.scss */
+/* line 79, ../../sass/main.scss */
 ul.vcard {
   margin: 20px;
 }
 
-/* line 70, ../../sass/main.scss */
+/* line 83, ../../sass/main.scss */
 ul.social {
-  margin: 20px 0;
+  margin: 10px 0;
 }
-/* line 78, ../../sass/main.scss */
+/* line 91, ../../sass/main.scss */
 ul.social li a {
   box-shadow: none;
   border: 3px solid #212121;
@@ -91,54 +108,66 @@ ul.social li a {
   white-space: nowrap;
   margin-bottom: 0;
 }
-/* line 86, ../../sass/main.scss */
-ul.social li a.github-main-page {
+/* line 99, ../../sass/main.scss */
+ul.social li a.facebook-main-page {
   background-color: #287aa9;
 }
-/* line 88, ../../sass/main.scss */
-ul.social li a.github-main-page:hover {
+/* line 101, ../../sass/main.scss */
+ul.social li a.facebook-main-page:hover {
   background-color: #21658c;
 }
-/* line 92, ../../sass/main.scss */
-ul.social li a.blog-main-page {
+/* line 105, ../../sass/main.scss */
+ul.social li a.github-main-page {
   background-color: #4ba07a;
 }
-/* line 94, ../../sass/main.scss */
-ul.social li a.blog-main-page:hover {
+/* line 107, ../../sass/main.scss */
+ul.social li a.github-main-page:hover {
   background-color: #408767;
 }
-/* line 98, ../../sass/main.scss */
+/* line 111, ../../sass/main.scss */
 ul.social li a.twitter-main-page {
   background-color: #db4863;
 }
-/* line 100, ../../sass/main.scss */
+/* line 113, ../../sass/main.scss */
 ul.social li a.twitter-main-page:hover {
   background-color: #d52a49;
 }
-/* line 104, ../../sass/main.scss */
+/* line 117, ../../sass/main.scss */
 ul.social li a.linkedin-main-page {
   background-color: #ef7639;
 }
-/* line 106, ../../sass/main.scss */
+/* line 119, ../../sass/main.scss */
 ul.social li a.linkedin-main-page:hover {
   background-color: #ec5f18;
 }
-/* line 110, ../../sass/main.scss */
-ul.social li a.facebook-main-page {
-  background-color: #7233fa;
-}
-/* line 112, ../../sass/main.scss */
-ul.social li a.facebook-main-page:hover {
-  background-color: #5a10f9;
-}
 
-/* line 119, ../../sass/main.scss */
+/* line 132, ../../sass/main.scss */
 h4.slider-header {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
-/* line 124, ../../sass/main.scss */
+/* line 137, ../../sass/main.scss */
 div.orbit-slide-number {
   display: none;
+}
+
+/* line 154, ../../sass/main.scss */
+ul.top-nav-menu {
+  margin: 10px 0;
+}
+/* line 156, ../../sass/main.scss */
+ul.top-nav-menu li {
+  vertical-align: middle;
+  font-size: 1.1em;
+}
+/* line 159, ../../sass/main.scss */
+ul.top-nav-menu li a {
+  background-color: #212121;
+  padding: 25px 0;
+  margin: 0 1px;
+  text-align: center;
+  box-shadow: none;
+  border: 3px solid #333333;
+  white-space: nowrap;
 }
