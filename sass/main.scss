@@ -170,6 +170,7 @@ section#about-me {
       color: $orange;
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
+      padding-bottom: 10px;
     }
   }
   #self-portrait {
@@ -200,21 +201,38 @@ section#about-me {
   }
 }
 
+@mixin port-btn {
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  white-space: nowrap;
+  margin-bottom: 0;
+  border: none;
+}
+
 @mixin port-link {
   a.port-blue {
-    color: $blue;
+    @include port-btn;
+    background-color: $blue;
   }
   a.port-green {
+    @include port-btn;
+    background-color: $green;
+  }
+  a.nolink-port-green {
     color: $green;
   }
   a.port-orange {
-    color: $orange;
+    @include port-btn;
+    background-color: $orange;
   }
   a.port-red {
-    color: $red;
+    @include port-btn;
+    background-color: $red;
   }
   a.port-purple {
-    color: $purple;
+    @include port-btn;
+    background-color: $purple;
   }
 }
 
@@ -238,11 +256,10 @@ div#portfolio-container {
   }
   div.small-item {
     font-size: 90%;
-    width: 167px;
-    height: 167px;
+    width: 166px;
+    height: 166px;
   }
   div.medium-item {
-    font-size: 90%;
     width: 345px;
     height: 170px;
   }

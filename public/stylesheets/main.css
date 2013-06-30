@@ -191,96 +191,130 @@ section#about-me header h3 {
   color: #ef7639;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  padding-bottom: 10px;
 }
-/* line 175, ../../sass/main.scss */
+/* line 176, ../../sass/main.scss */
 section#about-me #self-portrait {
   margin: 20px;
 }
-/* line 178, ../../sass/main.scss */
+/* line 179, ../../sass/main.scss */
 section#about-me #small-self-portrait {
   margin: 20px 0;
 }
-/* line 181, ../../sass/main.scss */
+/* line 182, ../../sass/main.scss */
 section#about-me h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 185, ../../sass/main.scss */
+/* line 186, ../../sass/main.scss */
 section#about-me #first-subheader {
   color: #4ba07a;
 }
-/* line 188, ../../sass/main.scss */
+/* line 189, ../../sass/main.scss */
 section#about-me #second-subheader {
   color: #287aa9;
 }
-/* line 191, ../../sass/main.scss */
+/* line 192, ../../sass/main.scss */
 section#about-me #third-subheader {
   color: #db4863;
 }
-/* line 194, ../../sass/main.scss */
+/* line 195, ../../sass/main.scss */
 section#about-me #fourth-subheader {
   color: #7233fa;
 }
-/* line 197, ../../sass/main.scss */
+/* line 198, ../../sass/main.scss */
 section#about-me blockquote {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-/* line 221, ../../sass/main.scss */
+/* line 239, ../../sass/main.scss */
 input.port-filter-btn {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
 }
 
-/* line 226, ../../sass/main.scss */
+/* line 244, ../../sass/main.scss */
 div#portfolio-container h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
-/* line 230, ../../sass/main.scss */
+/* line 248, ../../sass/main.scss */
 div#portfolio-container h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 234, ../../sass/main.scss */
+/* line 252, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item {
   margin: 5px;
   background-color: black;
 }
-/* line 204, ../../sass/main.scss */
+/* line 214, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-blue {
-  color: #287aa9;
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  white-space: nowrap;
+  margin-bottom: 0;
+  border: none;
+  background-color: #287aa9;
 }
-/* line 207, ../../sass/main.scss */
+/* line 218, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-green {
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  white-space: nowrap;
+  margin-bottom: 0;
+  border: none;
+  background-color: #4ba07a;
+}
+/* line 222, ../../sass/main.scss */
+div#portfolio-container div.portfolio-item a.nolink-port-green {
   color: #4ba07a;
 }
-/* line 210, ../../sass/main.scss */
+/* line 225, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-orange {
-  color: #ef7639;
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  white-space: nowrap;
+  margin-bottom: 0;
+  border: none;
+  background-color: #ef7639;
 }
-/* line 213, ../../sass/main.scss */
+/* line 229, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-red {
-  color: #db4863;
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  white-space: nowrap;
+  margin-bottom: 0;
+  border: none;
+  background-color: #db4863;
 }
-/* line 216, ../../sass/main.scss */
+/* line 233, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-purple {
-  color: #7233fa;
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  white-space: nowrap;
+  margin-bottom: 0;
+  border: none;
+  background-color: #7233fa;
 }
-/* line 239, ../../sass/main.scss */
+/* line 257, ../../sass/main.scss */
 div#portfolio-container div.small-item {
   font-size: 90%;
-  width: 167px;
-  height: 167px;
+  width: 166px;
+  height: 166px;
 }
-/* line 244, ../../sass/main.scss */
+/* line 262, ../../sass/main.scss */
 div#portfolio-container div.medium-item {
-  font-size: 90%;
   width: 345px;
   height: 170px;
 }
-/* line 249, ../../sass/main.scss */
+/* line 266, ../../sass/main.scss */
 div#portfolio-container div.large-item {
   width: 345px;
   height: 345px;
