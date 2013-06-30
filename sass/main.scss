@@ -1,3 +1,9 @@
+$blue: hsl(202, 62%, 41%);
+$green: hsl(153, 36%, 46%);
+$red: hsl(349, 67%, 57%);
+$orange: hsl(20, 85%, 58%);
+$purple: hsl(259, 95%, 59%);
+
 h2#front-page-name {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.6em;
@@ -30,7 +36,7 @@ div.tagline-small-container {
 ul.side-nav-home {
   margin-top: 42px;
 }
-ul.side-nav li {
+nav.side-nav li {
   a {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em; 
@@ -81,13 +87,8 @@ ul.vcard {
 }
 
 ul.social {
-  margin: 10px 0;
+  margin: 50px 0;
   li {
-    $blue: hsl(202, 62%, 41%);
-    $green: hsl(153, 36%, 46%);
-    $red: hsl(349, 67%, 57%);
-    $orange: hsl(20, 85%, 58%);
-    $purple: hsl(259, 95%, 59%);
     a {
       box-shadow: none;
       border: 3px solid hsl(0, 0%, 13%);
@@ -149,24 +150,99 @@ ul.top-nav-menu {
   }
 }
 
-div.footer {
-  background-color: hsl(0, 0%, 20%);
-  hr {
-    margin: 0;
-  }
+footer {
   h4{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.1em;
+    // font-size: 1.1em;
     &.footer-email {
       text-align: right;
     }
   }
 }
 
-
-div.portfolio-item {
-  width: 200px;
-  height: 100px;
-  border: 1px solid white;
+section#about-me {
+  header {
+    h3 {
+      color: $orange;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+    }
+  }
+  #self-portrait {
+    margin: 20px;
+  }
+  h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+  #first-subheader {
+    color: $green;
+  }
+  #second-subheader {
+    color: $blue;
+  }
+  #third-subheader {
+    color: $red;
+  }
+  #fourth-subheader {
+    color: $purple;
+  }
+  blockquote {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
 }
+
+@mixin port-link {
+  a.port-blue {
+    color: $blue;
+  }
+  a.port-green {
+    color: $green;
+  }
+  a.port-orange {
+    color: $orange;
+  }
+  a.port-red {
+    color: $red;
+  }
+  a.port-purple {
+    color: $purple;
+  }
+}
+
+input.port-filter-btn {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+div#portfolio-container {
+  h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+  h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+  div.portfolio-item {
+    @include port-link;
+    margin: 5px;
+    background-color: black;
+  }
+  div.small-item {
+    font-size: 90%;
+    width: 167px;
+    height: 167px;
+  }
+  div.medium-item {
+    font-size: 90%;
+    width: 345px;
+    height: 170px;
+  }
+  div.large-item {
+    width: 345px;
+    height: 345px;
+  }
+}
+

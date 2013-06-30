@@ -1,21 +1,21 @@
-/* line 1, ../../sass/main.scss */
+/* line 7, ../../sass/main.scss */
 h2#front-page-name {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.6em;
   margin-bottom: 0;
 }
-/* line 5, ../../sass/main.scss */
+/* line 11, ../../sass/main.scss */
 h2#front-page-name .first-name {
   font-weight: 300;
   color: #454545;
 }
-/* line 9, ../../sass/main.scss */
+/* line 15, ../../sass/main.scss */
 h2#front-page-name .last-name {
   color: #bdbdbd;
   font-weight: 600;
 }
 
-/* line 15, ../../sass/main.scss */
+/* line 21, ../../sass/main.scss */
 h3.tagline {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -23,83 +23,83 @@ h3.tagline {
   margin-top: 0;
 }
 
-/* line 22, ../../sass/main.scss */
+/* line 28, ../../sass/main.scss */
 div.tagline-small-container {
   position: relative;
   bottom: 10px;
 }
-/* line 25, ../../sass/main.scss */
+/* line 31, ../../sass/main.scss */
 div.tagline-small-container h3.tagline-small {
   margin: 0;
 }
 
-/* line 30, ../../sass/main.scss */
+/* line 36, ../../sass/main.scss */
 ul.side-nav-home {
   margin-top: 42px;
 }
 
-/* line 34, ../../sass/main.scss */
-ul.side-nav li a {
+/* line 40, ../../sass/main.scss */
+nav.side-nav li a {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
 }
-/* line 37, ../../sass/main.scss */
-ul.side-nav li a:hover {
+/* line 43, ../../sass/main.scss */
+nav.side-nav li a:hover {
   color: #a6a6a6;
 }
-/* line 42, ../../sass/main.scss */
-ul.side-nav li a#side-nav-name {
+/* line 48, ../../sass/main.scss */
+nav.side-nav li a#side-nav-name {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.65em;
 }
-/* line 45, ../../sass/main.scss */
-ul.side-nav li a#side-nav-name .first-name {
+/* line 51, ../../sass/main.scss */
+nav.side-nav li a#side-nav-name .first-name {
   font-weight: 300;
   color: #454545;
 }
-/* line 49, ../../sass/main.scss */
-ul.side-nav li a#side-nav-name .last-name {
+/* line 55, ../../sass/main.scss */
+nav.side-nav li a#side-nav-name .last-name {
   font-weight: 600;
   color: #bdbdbd;
 }
 
-/* line 56, ../../sass/main.scss */
+/* line 62, ../../sass/main.scss */
 nav.top-bar {
   margin-bottom: 10px;
 }
-/* line 58, ../../sass/main.scss */
+/* line 64, ../../sass/main.scss */
 nav.top-bar a#top-nav-name {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.45em;
   white-space: nowrap;
 }
-/* line 62, ../../sass/main.scss */
+/* line 68, ../../sass/main.scss */
 nav.top-bar a#top-nav-name .first-name {
   font-weight: 300;
   color: #454545;
 }
-/* line 66, ../../sass/main.scss */
+/* line 72, ../../sass/main.scss */
 nav.top-bar a#top-nav-name .last-name {
   font-weight: 600;
   color: #c4c4c4;
 }
-/* line 72, ../../sass/main.scss */
+/* line 78, ../../sass/main.scss */
 nav.top-bar ul.left li a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 0.9em;
 }
 
-/* line 79, ../../sass/main.scss */
+/* line 85, ../../sass/main.scss */
 ul.vcard {
   margin: 20px;
 }
 
-/* line 83, ../../sass/main.scss */
+/* line 89, ../../sass/main.scss */
 ul.social {
-  margin: 10px 0;
+  margin: 50px 0;
 }
-/* line 91, ../../sass/main.scss */
+/* line 92, ../../sass/main.scss */
 ul.social li a {
   box-shadow: none;
   border: 3px solid #212121;
@@ -108,60 +108,60 @@ ul.social li a {
   white-space: nowrap;
   margin-bottom: 0;
 }
-/* line 99, ../../sass/main.scss */
+/* line 100, ../../sass/main.scss */
 ul.social li a.facebook-main-page {
   background-color: #287aa9;
 }
-/* line 101, ../../sass/main.scss */
+/* line 102, ../../sass/main.scss */
 ul.social li a.facebook-main-page:hover {
   background-color: #21658c;
 }
-/* line 105, ../../sass/main.scss */
+/* line 106, ../../sass/main.scss */
 ul.social li a.github-main-page {
   background-color: #4ba07a;
 }
-/* line 107, ../../sass/main.scss */
+/* line 108, ../../sass/main.scss */
 ul.social li a.github-main-page:hover {
   background-color: #408767;
 }
-/* line 111, ../../sass/main.scss */
+/* line 112, ../../sass/main.scss */
 ul.social li a.twitter-main-page {
   background-color: #db4863;
 }
-/* line 113, ../../sass/main.scss */
+/* line 114, ../../sass/main.scss */
 ul.social li a.twitter-main-page:hover {
   background-color: #d52a49;
 }
-/* line 117, ../../sass/main.scss */
+/* line 118, ../../sass/main.scss */
 ul.social li a.linkedin-main-page {
   background-color: #ef7639;
 }
-/* line 119, ../../sass/main.scss */
+/* line 120, ../../sass/main.scss */
 ul.social li a.linkedin-main-page:hover {
   background-color: #ec5f18;
 }
 
-/* line 126, ../../sass/main.scss */
+/* line 127, ../../sass/main.scss */
 h4.slider-header {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
-/* line 131, ../../sass/main.scss */
+/* line 132, ../../sass/main.scss */
 div.orbit-slide-number {
   display: none;
 }
 
-/* line 135, ../../sass/main.scss */
+/* line 136, ../../sass/main.scss */
 ul.top-nav-menu {
   margin: 10px 0;
 }
-/* line 137, ../../sass/main.scss */
+/* line 138, ../../sass/main.scss */
 ul.top-nav-menu li {
   vertical-align: middle;
   font-size: 1.1em;
 }
-/* line 140, ../../sass/main.scss */
+/* line 141, ../../sass/main.scss */
 ul.top-nav-menu li a {
   background-color: #212121;
   padding: 25px 0;
@@ -172,28 +172,108 @@ ul.top-nav-menu li a {
   white-space: nowrap;
 }
 
-/* line 152, ../../sass/main.scss */
-div.footer {
-  background-color: #333333;
-}
 /* line 154, ../../sass/main.scss */
-div.footer hr {
-  margin: 0;
-}
-/* line 157, ../../sass/main.scss */
-div.footer h4 {
+footer h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.1em;
 }
-/* line 161, ../../sass/main.scss */
-div.footer h4.footer-email {
+/* line 158, ../../sass/main.scss */
+footer h4.footer-email {
   text-align: right;
 }
 
-/* line 168, ../../sass/main.scss */
-div.portfolio-item {
-  width: 200px;
-  height: 100px;
-  border: 1px solid white;
+/* line 166, ../../sass/main.scss */
+section#about-me header h3 {
+  color: #ef7639;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+/* line 172, ../../sass/main.scss */
+section#about-me #self-portrait {
+  margin: 20px;
+}
+/* line 175, ../../sass/main.scss */
+section#about-me h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+/* line 179, ../../sass/main.scss */
+section#about-me #first-subheader {
+  color: #4ba07a;
+}
+/* line 182, ../../sass/main.scss */
+section#about-me #second-subheader {
+  color: #287aa9;
+}
+/* line 185, ../../sass/main.scss */
+section#about-me #third-subheader {
+  color: #db4863;
+}
+/* line 188, ../../sass/main.scss */
+section#about-me #fourth-subheader {
+  color: #7233fa;
+}
+/* line 191, ../../sass/main.scss */
+section#about-me blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* line 215, ../../sass/main.scss */
+input.port-filter-btn {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+/* line 220, ../../sass/main.scss */
+div#portfolio-container h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+/* line 224, ../../sass/main.scss */
+div#portfolio-container h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+/* line 228, ../../sass/main.scss */
+div#portfolio-container div.portfolio-item {
+  margin: 5px;
+  background-color: black;
+}
+/* line 198, ../../sass/main.scss */
+div#portfolio-container div.portfolio-item a.port-blue {
+  color: #287aa9;
+}
+/* line 201, ../../sass/main.scss */
+div#portfolio-container div.portfolio-item a.port-green {
+  color: #4ba07a;
+}
+/* line 204, ../../sass/main.scss */
+div#portfolio-container div.portfolio-item a.port-orange {
+  color: #ef7639;
+}
+/* line 207, ../../sass/main.scss */
+div#portfolio-container div.portfolio-item a.port-red {
+  color: #db4863;
+}
+/* line 210, ../../sass/main.scss */
+div#portfolio-container div.portfolio-item a.port-purple {
+  color: #7233fa;
+}
+/* line 233, ../../sass/main.scss */
+div#portfolio-container div.small-item {
+  font-size: 90%;
+  width: 167px;
+  height: 167px;
+}
+/* line 238, ../../sass/main.scss */
+div#portfolio-container div.medium-item {
+  font-size: 90%;
+  width: 345px;
+  height: 170px;
+}
+/* line 243, ../../sass/main.scss */
+div#portfolio-container div.large-item {
+  width: 345px;
+  height: 345px;
 }
