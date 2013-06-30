@@ -36,6 +36,7 @@ GEM
     lumberjack (1.0.3)
     method_source (0.8.1)
     multi_json (1.7.5)
+    newrelic_rpm (3.6.5.130)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -72,6 +73,7 @@ DEPENDENCIES
   compass
   guard-compass
   guard-livereload
+  newrelic_rpm
   sass
   shotgun
   sinatra

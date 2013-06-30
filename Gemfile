@@ -6,6 +6,7 @@ gem 'sass'
 gem 'compass'
 gem 'sinatra'
 gem 'thin'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'shotgun'
