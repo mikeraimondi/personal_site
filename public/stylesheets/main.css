@@ -246,7 +246,8 @@ div#portfolio-container h6 {
 }
 /* line 252, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item {
-  margin: 4px;
+  padding: 1em;
+  margin: 3px;
   background-color: black;
 }
 /* line 214, ../../sass/main.scss */
@@ -303,19 +304,19 @@ div#portfolio-container div.portfolio-item a.port-purple {
   border: none;
   background-color: #7233fa;
 }
-/* line 257, ../../sass/main.scss */
+/* line 258, ../../sass/main.scss */
 div#portfolio-container div.small-item {
   font-size: 90%;
-  width: 166px;
-  height: 166px;
+  width: 160px;
+  height: 160px;
 }
-/* line 262, ../../sass/main.scss */
+/* line 263, ../../sass/main.scss */
 div#portfolio-container div.medium-item {
-  width: 345px;
-  height: 170px;
+  width: 326px;
+  height: 160px;
 }
-/* line 266, ../../sass/main.scss */
+/* line 267, ../../sass/main.scss */
 div#portfolio-container div.large-item {
-  width: 345px;
-  height: 345px;
+  width: 326px;
+  height: 326px;
 }

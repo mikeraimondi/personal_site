@@ -250,22 +250,23 @@ div#portfolio-container {
     font-weight: 300;
   }
   div.portfolio-item {
+    padding: 1em;
     @include port-link;
-    margin: 4px;
+    margin: 3px;
     background-color: black;
   }
   div.small-item {
     font-size: 90%;
-    width: 166px;
-    height: 166px;
+    width: 160px;
+    height: 160px;
   }
   div.medium-item {
-    width: 345px;
-    height: 170px;
+    width: 326px;
+    height: 160px;
   }
   div.large-item {
-    width: 345px;
-    height: 345px;
+    width: 326px;
+    height: 326px;
   }
 }
 
