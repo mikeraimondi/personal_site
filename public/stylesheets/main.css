@@ -181,98 +181,102 @@ footer h4 {
 footer h4.footer-email {
   text-align: right;
 }
+/* line 160, ../../sass/main.scss */
+footer h4.footer-email span.email-footer-part {
+  font-weight: 400;
+}
 
-/* line 166, ../../sass/main.scss */
+/* line 169, ../../sass/main.scss */
 section#about-me header h3 {
   color: #ef7639;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 172, ../../sass/main.scss */
+/* line 175, ../../sass/main.scss */
 section#about-me #self-portrait {
   margin: 20px;
 }
-/* line 175, ../../sass/main.scss */
+/* line 178, ../../sass/main.scss */
 section#about-me h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 179, ../../sass/main.scss */
+/* line 182, ../../sass/main.scss */
 section#about-me #first-subheader {
   color: #4ba07a;
 }
-/* line 182, ../../sass/main.scss */
+/* line 185, ../../sass/main.scss */
 section#about-me #second-subheader {
   color: #287aa9;
 }
-/* line 185, ../../sass/main.scss */
+/* line 188, ../../sass/main.scss */
 section#about-me #third-subheader {
   color: #db4863;
 }
-/* line 188, ../../sass/main.scss */
+/* line 191, ../../sass/main.scss */
 section#about-me #fourth-subheader {
   color: #7233fa;
 }
-/* line 191, ../../sass/main.scss */
+/* line 194, ../../sass/main.scss */
 section#about-me blockquote {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-/* line 215, ../../sass/main.scss */
+/* line 218, ../../sass/main.scss */
 input.port-filter-btn {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
 }
 
-/* line 220, ../../sass/main.scss */
+/* line 223, ../../sass/main.scss */
 div#portfolio-container h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
-/* line 224, ../../sass/main.scss */
+/* line 227, ../../sass/main.scss */
 div#portfolio-container h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 228, ../../sass/main.scss */
+/* line 231, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item {
   margin: 5px;
   background-color: black;
 }
-/* line 198, ../../sass/main.scss */
+/* line 201, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-blue {
   color: #287aa9;
 }
-/* line 201, ../../sass/main.scss */
+/* line 204, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-green {
   color: #4ba07a;
 }
-/* line 204, ../../sass/main.scss */
+/* line 207, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-orange {
   color: #ef7639;
 }
-/* line 207, ../../sass/main.scss */
+/* line 210, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-red {
   color: #db4863;
 }
-/* line 210, ../../sass/main.scss */
+/* line 213, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item a.port-purple {
   color: #7233fa;
 }
-/* line 233, ../../sass/main.scss */
+/* line 236, ../../sass/main.scss */
 div#portfolio-container div.small-item {
   font-size: 90%;
   width: 167px;
   height: 167px;
 }
-/* line 238, ../../sass/main.scss */
+/* line 241, ../../sass/main.scss */
 div#portfolio-container div.medium-item {
   font-size: 90%;
   width: 345px;
   height: 170px;
 }
-/* line 243, ../../sass/main.scss */
+/* line 246, ../../sass/main.scss */
 div#portfolio-container div.large-item {
   width: 345px;
   height: 345px;

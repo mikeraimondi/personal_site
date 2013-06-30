@@ -157,6 +157,9 @@ footer {
     // font-size: 1.1em;
     &.footer-email {
       text-align: right;
+      span.email-footer-part {
+        font-weight: 400;
+      }
     }
   }
 }
