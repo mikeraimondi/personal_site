@@ -236,15 +236,17 @@ input.port-filter-btn {
 
 /* line 244, ../../sass/main.scss */
 div#portfolio-container h5 {
+  color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
-/* line 248, ../../sass/main.scss */
+/* line 249, ../../sass/main.scss */
 div#portfolio-container h6 {
+  color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 252, ../../sass/main.scss */
+/* line 254, ../../sass/main.scss */
 div#portfolio-container div.portfolio-item {
   padding: 1em;
   margin: 3px;
@@ -304,18 +306,18 @@ div#portfolio-container div.portfolio-item a.port-purple {
   border: none;
   background-color: #7233fa;
 }
-/* line 258, ../../sass/main.scss */
+/* line 260, ../../sass/main.scss */
 div#portfolio-container div.small-item {
   font-size: 90%;
   width: 160px;
   height: 160px;
 }
-/* line 263, ../../sass/main.scss */
+/* line 265, ../../sass/main.scss */
 div#portfolio-container div.medium-item {
   width: 326px;
   height: 160px;
 }
-/* line 267, ../../sass/main.scss */
+/* line 269, ../../sass/main.scss */
 div#portfolio-container div.large-item {
   width: 326px;
   height: 326px;
