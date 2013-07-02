@@ -74,11 +74,28 @@ nav.top-bar {
       color: hsl(0, 0%, 77%);
     }
   }
-
-  ul.left li a {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 0.9em;
+  @media only screen and (max-width: 940px) {
+    ul.top-nav-menu {
+      margin: 10px 0;
+      li {
+        vertical-align: middle;
+        font-size: 1.1em;
+        a {
+          background-color: hsl(0, 0%, 13%);
+          padding: 25px 0;
+          margin: 0 1px;
+          text-align: center;
+          box-shadow: none;
+          border: 3px solid hsl(0, 0%, 20%);
+          white-space: nowrap;
+        }
+      }
+    }
+    ul.left li a {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 0.9em;
+    }
   }
 }
 
@@ -133,23 +150,6 @@ div.orbit-slide-number {
   display: none;
 }
 
-ul.top-nav-menu {
-  margin: 10px 0;
-  li {
-    vertical-align: middle;
-    font-size: 1.1em;
-    a {
-      background-color: hsl(0, 0%, 13%);
-      padding: 25px 0;
-      margin: 0 1px;
-      text-align: center;
-      box-shadow: none;
-      border: 3px solid hsl(0, 0%, 20%);
-      white-space: nowrap;
-    }
-  }
-}
-
 footer {
   h4{
     font-family: 'Open Sans', sans-serif;
@@ -163,6 +163,7 @@ footer {
     }
   }
 }
+
 
 section#about-me {
   header {

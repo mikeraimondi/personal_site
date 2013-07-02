@@ -23,7 +23,7 @@
 
 	<div class="row">
 
-    <div class="hide-for-small large-3 columns">
+    <div class="hide-for-medium-down large-3 columns">
       <nav class="side-nav <%= 'side-nav-home' if @home %>">
         <% unless @home %>
           <li><a id="side-nav-name" href="/"><span class="first-name">mike</span> <span class="last-name">raimondi</span></a></li>
@@ -35,7 +35,7 @@
         <li class="<%= 'active' if @current == 'contact' %>"><a href="/contact">contact</a></li>
       </nav>
     </div>
-      <nav class="show-for-small top-bar">
+      <nav class="show-for-medium-down top-bar">
         <ul class="title-area">
           <!-- Title Area -->
           <li class="name">
@@ -47,7 +47,15 @@
 
         <section class="top-bar-section">
           <!-- Left Nav Section -->
-          <ul class="left button-group even-2 top-nav-menu">
+          <ul class="show-for-small left button-group even-2 top-nav-menu">
+              <li class="<%= 'active' if @current == 'home' %>"><a class="icon-home" href="/">home</a></li>
+              <li><a class="icon-pencil" href="http://www.unlimited-code-works.com" target="_blank">blog</a></li>
+              <li class="<%= 'active' if @current == 'about' %>"><a class="icon-user" href="/about">about</a></li>
+              <li class="<%= 'active' if @current == 'portfolio' %>"><a class="icon-folder-open" href="/portfolio">portfolio</a></li>
+              <li class="<%= 'active' if @current == 'resume' %>"><a class="icon-article" href="/resume">r&eacutesum&eacute</a></li>
+              <li class="<%= 'active' if @current == 'contact' %>"><a class="icon-mail" href="/contact">contact</a></li>
+          </ul>
+          <ul class="hide-for-small left top-nav-menu">
               <li class="<%= 'active' if @current == 'home' %>"><a class="icon-home" href="/">home</a></li>
               <li><a class="icon-pencil" href="http://www.unlimited-code-works.com" target="_blank">blog</a></li>
               <li class="<%= 'active' if @current == 'about' %>"><a class="icon-user" href="/about">about</a></li>
